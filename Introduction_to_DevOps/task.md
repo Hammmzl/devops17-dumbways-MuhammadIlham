@@ -54,8 +54,46 @@ Task :
 - Pilih bahasa yang digunakan
     ![11](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/9fdabc76-ba59-41f7-a414-b952d20a55e5)
 
-- pengaturan untuk keyboard layout pilih defult english dan klik done
+- pengaturan untuk keyboard layout pilih default english dan klik done
     ![12](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/9437f32e-f67a-43f2-9b00-268e40d6e0fb)
+
+- Tampilan untuk mengatur network connection, pada bagian ini bisa memilih konfigurasi otomatis (DHCP AUTO) atau Setting manual IPv4
+    ![13](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/ec706fb7-ec78-429e-a907-e70343e6a8e2)
+
+- configure proxy bisa di kosongkan dan klik done
+    ![14](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/955171b7-e1cc-4931-a516-b4074ee7d9df)
+
+- pada configure  ubuntu archive mirror gunkan default address ubuntu
+    ![15](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/f69f19de-db00-4bd4-a78c-b9b65b08877a)
+
+- storage configuration klik use an entire disk
+    ![16](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/8b26c0f3-1dae-42d7-a35c-4c5255214dc1)
+
+
+- kemudian akan muncul storage configuration, kita juga dapat mengatur ulang dan membagi partisi dengan size yang di inginkan
+    ![17](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/ae1109a8-4771-47ff-a347-50b3b287f21a)
+
+- setup profile isi kembali nama pengguna, nama server, username dan password
+    ![18](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/0ed8a494-19c0-42dc-8c80-c0a269eb315d)
+
+- pada settingan ssh setup klik install OpenSSH server, ssh server akan diinstall bersamaan dengan installasi ubuntunya
+    ![19](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/cb67245f-27bc-4ded-a935-7aec8333f71a)
+
+- tunggu hingga installasi sistem selesai
+    ![20](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/295a05ad-2ac0-4628-843c-ba5d1738bc07)
+
+
+- untuk cek koneksi ubuntu server anda dapat melakukan ping ke 8.8.8.8
+    ![21](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/0538daff-efe3-451a-affe-2cf0c3f57744)
+
+
+
+
+
+
+
+
+
 
 
 
