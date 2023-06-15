@@ -26,15 +26,19 @@ echo// command echo disini tidak hanya mempu menampilkan text tetapi juga dapat 
 [2] dalam memonitoring  aktivitas untuk melihat kinerja sistem secara realtime dibutuhkan beberapa perintah salah satunya adalah htop dan nmon  digunakan untuk memonitoring sebuah server
 
 htop seperti yang telah dijelaskan diatas htop digunakan untuk memonitoring  penggunaan memory, cpu, swap. gunakan perintah //htop pada ubuntu server
+![htop](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/a5951312-1c14-4015-a430-74967acfe999)
 
 
 nmon sama halnya seperti htop, Berikut adalah tampilan dari nmon untuk menampilkan cpu, memory, disk, dan network
 
+![nmon](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/dd437b6b-0ca2-453a-8601-502d0fd0bab5)
 
 c adalah CPU
 m adalah Memory
 d adalah Disk
 n adalah network
+
+![n, m, s ](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/4d6967c4-7377-489b-b7a8-2790b906c888)
 
 
 
