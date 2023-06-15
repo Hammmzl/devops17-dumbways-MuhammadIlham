@@ -24,4 +24,6 @@ Jalankan sudo apt update sebelum instalasi
 - setelah selesai periksa status layanan dengan perintah sudo systemctl status apache2.
   
 - buka browser di komputer dan akses alamat ip sesuai dengan alamat ip komputer/server.
+  ![apache2](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/5e9d656c-ded1-4c61-bf98-490c6ec6ff81)
+
 
