@@ -15,5 +15,13 @@ Jalankan sudo apt update sebelum instalasi
 
 (3) proses instalasi Apache2 dan dapat diakses melalui IP Address server
 
-- buka ubuntu server pada terminal atau ssh ke server ubuntu
+- buka ubuntu server pada terminal atau ssh ke server ubuntu.
+  
+- update repo dengan perintah sudo apt update.
+  
+- install Apache2 dengan menjalankan perintah sudo apt  install apache2.
+  
+- setelah selesai periksa status layanan dengan perintah sudo systemctl status apache2.
+  
+- buka browser di komputer dan akses alamat ip sesuai dengan alamat ip komputer/server.
 
