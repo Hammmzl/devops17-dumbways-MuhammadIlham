@@ -16,11 +16,13 @@ Jalankan sudo apt update sebelum instalasi
 (3) proses instalasi Apache2 dan dapat diakses melalui IP Address server
 
 - buka ubuntu server pada terminal atau ssh ke server ubuntu.
-  
+  ![01](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/b35ccd50-7c7c-4650-a221-ffd8403700b3)
+
 - update repo dengan perintah sudo apt update.
   
 - install Apache2 dengan menjalankan perintah sudo apt  install apache2.
-  
+  ![02](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/5d21bbe8-d0b1-47e5-bc85-1c56f783ed34)
+
 - setelah selesai periksa status layanan dengan perintah sudo systemctl status apache2.
   
 - buka browser di komputer dan akses alamat ip sesuai dengan alamat ip komputer/server.
