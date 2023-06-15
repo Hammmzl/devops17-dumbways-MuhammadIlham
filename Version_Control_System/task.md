@@ -13,9 +13,11 @@ Task :
 [2]
 
 
-[3] gunakan git branch <diikuti dengan nama branch> 
+[3] gunakan git branch //diikuti dengan nama branch//
 *Staging
 *Production
+git branch // untuk cek brance yang digunakan
+
 
 
 [4] git gc //  Perintah ini digunakan untuk menjalankan proses pembersihan (garbage collection) pada repositori Git.
