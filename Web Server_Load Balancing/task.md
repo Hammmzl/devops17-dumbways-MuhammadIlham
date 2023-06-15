@@ -8,3 +8,8 @@ Task :
 Referensi :
 - Nama Domain - dumbflix-<nama panggilan>.xyz
 - Dumbflix-FE - ```https://github.com/dumbwaysdev/dumbflix-frontend```
+
+
+[1] Proses instalasi nginx apt install nginx pada server  ubuntu
+
+[2] plikasi dumbflix menggunakan PM2
