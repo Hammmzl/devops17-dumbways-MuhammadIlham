@@ -13,3 +13,4 @@ Referensi :
 [1] Proses instalasi nginx apt install nginx pada server  ubuntu
 
 [2] plikasi dumbflix menggunakan PM2
+  install PM2 pada 
