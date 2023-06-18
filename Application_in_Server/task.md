@@ -12,19 +12,27 @@ Repository
 
 [2] Deploy Aplikasi wayshub-frontend (NodeJS)
 
-clone repo dari https://github.com/dumbwaysdev/wayshub-frontend
+  - clone repo dari https://github.com/dumbwaysdev/wayshub-frontend
+
+  - ![Screenshot 2023-06-18 201637](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/ea0dcae4-eaf9-4152-9419-35ae0b1b388f)
 
 
-install npm versi 16 untuk menjalankan wayshub-frontend //npm install 16 // jika terdapat lebih dari satu versi npm gunakan perintan // npm use 16
+  - install npm versi 16 untuk menjalankan wayshub-frontend //npm install 16 // jika terdapat lebih dari satu versi npm gunakan perintan // npm use 16
+  - gunakan perintah npm i untuk menginisialisasi project wayshub-frontend (NodeJS)
+  - ![Screenshot 2023-06-18 201643](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/0879bc75-5f42-4f17-8389-ded10cf41b66)
 
 
-gunakan perintah npm i untuk menginisialisasi project wayshub-frontend (NodeJS)
 
 
-untuk menjalankannya di web server gunakan perintah // npm run start
+
+   - untuk menjalankannya di web server gunakan perintah // npm run start
+     ![Screenshot 2023-06-18 201617](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/ed77aa1b-8ab2-4ee2-9cb1-3693f0ae972d)
 
 
-untuk melihat  aplikasi yang berjalan buka web browser dan masukan ip add server serta port yang berjalan // 172.20.10.8:3000
+
+  - untuk melihat  aplikasi yang berjalan buka web browser dan masukan ip add server serta port yang berjalan // 172.20.10.8:3000
+   
+  - ![Screenshot 2023-06-18 201631](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/9a8bbfea-9ac8-40c8-b0a9-5e9d2c1d0762)
 
 
 
