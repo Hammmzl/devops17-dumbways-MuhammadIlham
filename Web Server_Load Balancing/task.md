@@ -26,4 +26,6 @@ Referensi :
 [2] aplikasi dumbflix menggunakan PM2
     buat sebuah directory baru
     gunakan perinta git clone https://github.com/dumbwaysdev/dumbflix-frontend pada direcroty  yang baru saja dibuat
-    install library PM2 pada ubuntu server dengan menjalankan perintah npm i -g pm2
+    install library PM2 pada ubuntu server dengan menjalankan perintah npm install pm2 -g
+    masuk ke directory dumbflix-frontend masukakn perintah pm2 list untuk melihat semua app yang berjalan
+    untuk menjalankan aplikasi gunakan perinta pm2 start app.js
