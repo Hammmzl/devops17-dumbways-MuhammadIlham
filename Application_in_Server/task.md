@@ -10,7 +10,25 @@ Repository
 
 [1] Monolith, Perubahan pada salah satu bagian aplikasi dapat mempengaruhi seluruh sistem, sehingga pengembangan dan pengujian dapat menjadi lebih rumit. Microservice,  Setiap layanan mikro dapat dikembangkan, diperbarui, dan dideploy secara independen, yang memungkinkan tim pengembang untuk fokus pada layanan tertentu tanpa mengganggu layanan lain.
 
-[2]
+[2] Deploy Aplikasi wayshub-frontend (NodeJS)
+
+clone repo dari https://github.com/dumbwaysdev/wayshub-frontend
+
+
+install npm versi 16 untuk menjalankan wayshub-frontend //npm install 16 // jika terdapat lebih dari satu versi npm gunakan perintan // npm use 16
+
+
+gunakan perintah npm i untuk menginisialisasi project wayshub-frontend (NodeJS)
+
+
+untuk menjalankannya di web server gunakan perintah // npm run start
+
+
+untuk melihat  aplikasi yang berjalan buka web browser dan masukan ip add server serta port yang berjalan // 172.20.10.8:3000
+
+
+
+
 
 
 
