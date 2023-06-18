@@ -23,5 +23,7 @@ Referensi :
 
     - untuk me-reload sistem dari Nginx gunakan perinta sudo systemctl restart nginx
 
-[2] plikasi dumbflix menggunakan PM2
-  install PM2 pada 
+[2] aplikasi dumbflix menggunakan PM2
+    buat sebuah directory baru
+    gunakan perinta git clone https://github.com/dumbwaysdev/dumbflix-frontend pada direcroty  yang baru saja dibuat
+    install library PM2 pada ubuntu server dengan menjalankan perintah npm i -g pm2
