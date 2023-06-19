@@ -41,10 +41,16 @@ Repository
 
 
 
-[3] Deploy Golang // download engine-nya terlebih dahulu wget https://golang.org/dl/go1.16.5.linux-amd64.tar.gz && sudo su
+[3] Deploy Golang
+
+// download engine-nya terlebih dahulu wget https://golang.org/dl/go1.16.5.linux-amd64.tar.gz && sudo su
 rm -rf /usr/local/go && tar -C /usr/local -xzf go1.16.5.linux-amd64.tar.gz && exit
+![go2](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/b69e2c5e-e978-4829-92ef-36c2532f318c)
+
 masukkan path go pada .bashrc // sudo nano .bashrc
 export PATH=$PATH:/usr/local/go/bin 
+![go1](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/4defa43d-12a4-4c6d-b025-8448cbfadc52)
+
 
 Verifikasi go dengan cara berikut: 
 -go version untuk membuat aplikasi sederhana dengan go, Buat sebuah file dengan nama index.go. // nano index.go
@@ -57,17 +63,27 @@ import "fmt"
 func main() {
     fmt.Println("Hello World!")
 }
+![go3](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/091452fd-672b-4c66-a499-d7a78b04f8f9)
+
 
 - selanjutnya jalankan aplikasi go dengan perintah // go  run index.go
 - jika aplikasi ingin di build jalankan perintah // go build index.go
 - jika sudah berjalan gunakan perintah ./index
 
+![go4](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/0ad9d036-e864-4d85-bdc7-43ab5609e10f)
+
+
  // Deploy python //
  - install python3 //sudo apt update; sudo apt upgrade
  - python3 secara default telah terintal pada ubuntu server, cek python3 // python3 -v
  - install package manager dari python3 //sudo apt install python3-pip
- - kemudian install flask //pip install flask
- - Untuk membuat aplikasi sederhana menggunakan Python3.
+    ![py01](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/0ad2000b-bb0d-4723-b591-0a7683ec72fd)
+
+   
+ - kemudian install flask //pip install flask.
+   ![py02](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/c9b03adc-468d-4948-9c72-932bd11a032d)
+
+ - Untuk mencetak text sederhana menggunakan Python3.
  - buat terlebih dahulu file dengan nama index.py masukan script
     from flask import Flask
     app = Flask(__name__)
@@ -76,5 +92,11 @@ func main() {
         return "Hello World"
     if __name__ == "__main__":
     app.run()
+
+   perlu di ingat sesuaikan pada app.run gunakan host sesuai dengan ip dan dan juga tidak bisa berjalan gunakan perintah //sudo ufw allow 5000 untuk mengizinkan run di port 5000
+![py03](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/254e2190-3c88-4e9f-8e75-94ee90108923)
+
+   
  - untuk menjalankan aplikasi //python3 index.py
  - gunakan web browser akses dengan localhost:5000
+![py04](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/6c410ebe-7f14-4b67-bde3-c4ff0c8a7873)
