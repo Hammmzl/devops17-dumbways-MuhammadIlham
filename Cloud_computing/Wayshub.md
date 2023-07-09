@@ -57,6 +57,21 @@ Tasks :
 
    ![Screenshot 2023-07-08 223424](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/37aa29cb-69a7-4f4c-ad13-2208c63dbd9f)
 
+    - buka web browser untuk mengecek web frontend dengan ip public idch dan port 3000
+
+   ![Screenshot 2023-07-08 223336](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/a09f2491-c554-4a79-a656-15f02715287b)
+
+    - sama halnya seperti pada frontend konfigurasi backend menggunakan npm install kemudian (pm2 ecosystem init) untuk generated file ecosystem.config.js
+    ubah file cosystem.config.js pada bagian script ganti ke npm start bedakan dengan script ecosystem.config.js. jalankan perintah pm2 start dan pm2 list untuk melihat pm2 yang berjalan
+   ![Screenshot 2023-07-08 231455](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/c2ead59b-b0ed-4480-9bb7-9cd0cf66b4c6)
+
+   ![Screenshot 2023-07-08 231443](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/3c4a7914-ba02-4521-8ed8-fed38565fe27)
+
+      - untuk mengecek backand pada web browser gunakan ip dan port 5000 untuk backand, jika muncul cannot get maka backand telah berhasil dijalankan
+
+![Screenshot 2023-07-08 231510](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/68347f00-e908-48f4-8f1f-50e9776a126b)
+
+
     
 
       
