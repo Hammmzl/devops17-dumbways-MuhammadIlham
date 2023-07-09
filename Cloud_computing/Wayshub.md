@@ -114,7 +114,9 @@ Tasks :
    ![Screenshot 2023-07-09 004725](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/c4621817-040f-47e5-847c-6eaadeaf8df8)
 
       
-   
+    selanjutnya kita sudah dapat mengunakan aplikasi web wayshub 
+   ![Screenshot 2023-07-08 234334](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/0f3d73f6-6161-423e-b2c2-4cf0cff94d90)
+
  
 
 
