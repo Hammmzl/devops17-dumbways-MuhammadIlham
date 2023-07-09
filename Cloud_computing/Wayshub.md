@@ -94,7 +94,24 @@ Tasks :
       - selanjutnya jalanmkan perintah GRANT ALL PRIVILEGES ON database_name.* TO 'username'@'localhost' IDENTIFIED BY 'password'; digunakan untuk memberikan semua hak akses (privilege) kepada pengguna sebagai contoh disini ilham.
    ![Screenshot 2023-07-08 231613](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/115c8ad3-ffca-4bee-b1da-9507d751ef7f)
 
+    -kemudian exit, jalankan perintah (sudo mysql -u ilham -p) untuk masuk ke user ilham yang telah dubuat.
+   ![Screenshot 2023-07-08 234244](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/e234ada7-dcbe-4064-b194-317cb19e46c5)
 
+      - ada beberapa perintah dalam mysql sepertin SHOW  DATABASES untuk melihat database dan CREATE DATABASE <database name> untuk membuat databases baru.
+   ![Screenshot 2023-07-08 234253](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/834cec20-16cc-4463-87bc-8a6a0bd1b4a4)
+
+    - setelah membuat database dan exit, masuk ke wayshub-frontend jalankan perintah nano src/config/api.js ubah base url ke (api.<nama>.studentdumbways.my.id) yang telah dibuat dicloudflare. 
+   ![Screenshot 2023-07-08 234322](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/9aa08567-4a6f-483c-b46c-c604863d7a3d)
+
+      - file src/config/api.js yang diubah
+   ![Screenshot 2023-07-08 234305](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/0f6b640c-4b33-4321-aaa0-23b50a81237a)
+
+     -selnajutnya masuk kembali ke wayshub-backand ubah file config/config.json untuk mengkoneksikan database ke backand ubah username password dan name database yang talah dibuat.
+
+   ![Screenshot 2023-07-08 234312](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/5dedda7a-fcdc-4322-a4c4-749cf685e600)
+
+    - kemudian gunakan perintah  (npm i  -g sequelize-cli) perintah ini digunakan untuk menginstal paket Sequelize CLI secara global menggunakan npm (Node Package Manager) selanjutnya jalankan perintah (sequelize db:migrate) untuk  mencari dan menjalankan file migrasi yang ada dalam proyek. 
+   ![Screenshot 2023-07-09 004725](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/c4621817-040f-47e5-847c-6eaadeaf8df8)
 
       
    
