@@ -12,3 +12,7 @@ Tasks :
        - <nama>.studentdumbways.my.id (front-end)
        - api.<nama>.studentdumbways.my.id (back-end)
         note : <nama> diganti sesuai dengan nama kalian.
+
+
+
+[Proses Instalasi NGINX di server gateway]
