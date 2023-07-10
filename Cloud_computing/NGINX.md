@@ -35,6 +35,6 @@ Tasks :
 
    ![Screenshot 2023-07-09 000330](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/606c2e24-926c-42f2-8df1-0f34778f913a)
 
-      - terakhir cek web yang telah di deploy dengan akses ke domain ilham.studentdumways.my.id dan cek api backand api.ilhamstudentdumways.my.id 
+      - terakhir cek web yang telah di deploy dengan akses ke domain ilham.studentdumways.my.id
        
 ![Screenshot 2023-07-10 104913](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/5e2abca2-b44a-4bc7-b4a4-50111769b75d)
