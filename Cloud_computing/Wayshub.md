@@ -80,7 +80,7 @@ Tasks :
    - masuk ke terminal pastikan masuk ke appserver jalankan perintah (sudo apt install mysql-server) untuk konfigurasi, mengunduh paket MySQL Server dan dependensinya.
 ![Screenshot 2023-07-08 231533](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/be783e6a-c9eb-4132-9e0d-166cf52eaadb)
 
-    - selanjutnya jalankan perintah (sudo systemctl start mysql.service) digunakan untuk memulai layanan MySQL pada sistem Linux.
+    - selanjutnya jalankan perintah (sudo systemctl start mysql.service) digunakan untuk memulai layanan MySQL pada sistem Linux. kemudian jalankan perintah sudo mysql_secure_installation.
 ![Screenshot 2023-07-08 231546](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/95970899-433f-4434-95b3-73d156953d1d)
 
     - gunakan perintah sudo mysql, setalah masuk ke mysql gunakan perintah ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password'; untuk mengubah kata sandi pengguna root MySQL disini passwordnya adalah 'password' kemudian exit
