@@ -23,9 +23,15 @@ Proses instalasi dan menjalankan terraform di local
       
         apt-get install wget curl unzip software-properties-common gnupg2 -y
 
+   ![1](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/cd0a6e52-1265-4044-a22d-1f2502cb3f22)
+
+
 - Selanjutnya, unduh dan tambahkan kunci gpg bertanda tangan HashiCorp ke sistem :
 
          curl -fsSL https://apt.releases.hashicorp.com/gpg | apt-key add -
+
+  ![2](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/ed6384ca-17da-4cbb-b178-94c29d9f1d2c)
+
 
 - Selanjutnya, tambahkan repositori HashiCorp ke APT menggunakan perintah berikut :
 
@@ -38,6 +44,9 @@ Proses instalasi dan menjalankan terraform di local
 - Terakhir, Install terraform dengan menjalankan perintah berikut :
 
       apt-get install terraform -y
+
+![3](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/426cbac8-c07c-4ac2-8589-6b89f86046e1)
+
 
 - Cek terraform yang berjalan :
 
@@ -119,10 +128,17 @@ Proses instalasi dan menjalankan terraform di local
              assigned_to = idcloudhost_vm.ilham-monitoring.id
          }
 
+![5](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/cdb5a656-d4cc-49b0-9492-ce8c62360f02)
+
+
 - Untuk melihat rencana eksekusi Terraform sebelum benar-benar menerapkan perubahan di local, Jalankan perintah :
 
        terraform init
 
+![4](https://github.com/Hammmzl/devops17-dumbways-MuhammadIlham/assets/96168418/442856dc-d2cb-4cf4-99c4-eb5f62ff3c4d)
+
+
 - Selanjutnya, untuk menerapkannya gunakan perintah :
 
        terraform apply
+
