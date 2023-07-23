@@ -18,30 +18,32 @@ Tasks :
 INSTALASI TERRAFORM
 
 Proses instalasi dan menjalankan terraform di local
+
 - Pertama, instal dependensi yang diperlukan menggunakan perintah berikut:    
       
-         apt-get install wget curl unzip software-properties-common gnupg2 -y
+        apt-get install wget curl unzip software-properties-common gnupg2 -y
 
 - Selanjutnya, unduh dan tambahkan kunci gpg bertanda tangan HashiCorp ke sistem :
 
          curl -fsSL https://apt.releases.hashicorp.com/gpg | apt-key add -
-Selanjutnya, tambahkan repositori HashiCorp ke APT menggunakan perintah berikut :
 
-      apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+- Selanjutnya, tambahkan repositori HashiCorp ke APT menggunakan perintah berikut :
 
-Selanjutnya, perbarui repositori :
+           apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+
+- Selanjutnya, perbarui repositori :
 
       apt-get update -y
 
-Terakhir, Install terraform dengan menjalankan perintah berikut :
+- Terakhir, Install terraform dengan menjalankan perintah berikut :
 
       apt-get install terraform -y
 
-Cek terraform yang berjalan :
+- Cek terraform yang berjalan :
 
       terraform -v
 
-buat dan edit sesuai kebutuhan terraform script untuk semua pembuatan server
+- buat dan edit sesuai kebutuhan terraform script untuk semua pembuatan server
 
             terraform {
            required_providers {
@@ -117,11 +119,10 @@ buat dan edit sesuai kebutuhan terraform script untuk semua pembuatan server
              assigned_to = idcloudhost_vm.ilham-monitoring.id
          }
 
+- Untuk melihat rencana eksekusi Terraform sebelum benar-benar menerapkan perubahan di local, Jalankan perintah :
 
- Untuk melihat rencana eksekusi Terraform sebelum benar-benar menerapkan perubahan di local, Jalankan perintah :
+       terraform init
 
-    terraform init
+- Selanjutnya, untuk menerapkannya gunakan perintah :
 
-Selanjutnya, untuk menerapkannya gunakan perintah :
-
-      terraform apply
+       terraform apply
